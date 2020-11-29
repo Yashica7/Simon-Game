@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #bbbbbb;
+}
+
+#level-title {
+  font-family: 'Luckiest Guy', cursive;;
+  font-size: 4rem;
+  margin:  2%;
+  color: #03506f;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #03506f;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff6961;
+}
+
+.green {
+  background-color: #adce74;
+}
+
+.blue {
+  background-color: #8ac6d1;
+}
+
+.yellow {
+  background-color: #fff8a6;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
